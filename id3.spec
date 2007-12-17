@@ -10,7 +10,6 @@ Source0: http://home.wanadoo.nl/squell/files/%{name}-%{version}.tar.bz2
 License: BSD
 Group: Sound
 Url: http://home.wanadoo.nl/squell/id3.html
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 id3 mass tagger is a tool for manipulating id3 and id3v2 tags in
