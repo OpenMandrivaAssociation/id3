@@ -1,12 +1,13 @@
 %define name id3
 %define version 0.78
-%define release %mkrel 3
+%define release %mkrel 2
 
 Summary: Command line ID3 tagger
 Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://home.wanadoo.nl/squell/files/%{name}-%{version}.tar.bz2
+Patch: id3-0.78-missing-headers.patch
 License: BSD
 Group: Sound
 Url: http://home.wanadoo.nl/squell/id3.html
@@ -23,6 +24,7 @@ which use these formats, e.g, MPEG-1 Layer III.
 
 %prep
 %setup -q
+%patch -p1
 
 %build
 %make
