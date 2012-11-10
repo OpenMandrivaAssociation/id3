@@ -1,0 +1,30 @@
+diff -p -up id3-0.78/charconv.cpp~ id3-0.78/charconv.cpp
+--- id3-0.78/charconv.cpp~	2006-02-14 22:44:58.000000000 +0100
++++ id3-0.78/charconv.cpp	2009-03-12 09:25:03.000000000 +0100
+@@ -3,6 +3,7 @@
+ #  include <cstdio>
+ #endif
+ #include <cstdlib>
++#include <cstring>
+ #include <clocale>
+ #include <climits>
+ #if defined(__STDC_ISO_10646__) || defined(__WIN32__)
+diff -p -up id3-0.78/getid3v2.cpp~ id3-0.78/getid3v2.cpp
+--- id3-0.78/getid3v2.cpp~	2006-02-11 04:23:14.000000000 +0100
++++ id3-0.78/getid3v2.cpp	2009-03-12 09:25:40.000000000 +0100
+@@ -1,5 +1,6 @@
+ #include <vector>
+ #include <cstdio>
++#include <cstring>
+ #include "char_ucs.h"
+ #include "id3v2.h"
+ #include "getid3v2.h"
+diff -p -up id3-0.78/setfname.cpp~ id3-0.78/setfname.cpp
+--- id3-0.78/setfname.cpp~	2006-03-19 12:13:36.000000000 +0100
++++ id3-0.78/setfname.cpp	2009-03-12 09:26:10.000000000 +0100
+@@ -1,4 +1,5 @@
+ #include <cstdio>
++#include <cstring>
+ #include <cctype>
+ #include <ctime>                                    // borland needs this
+ #include <sys/stat.h>
