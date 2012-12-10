@@ -42,3 +42,40 @@ rm -rf $RPM_BUILD_ROOT
 %doc README CHANGES COPYING
 %_bindir/id3
 %_mandir/man1/id3.1*
+
+
+%changelog
+* Wed Dec 07 2011 Götz Waschk <waschk@mandriva.org> 0.78-5mdv2012.0
++ Revision: 738500
+- yearly rebuild
+
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.78-4mdv2011.0
++ Revision: 611172
+- rebuild
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 0.78-3mdv2010.1
++ Revision: 437933
+- rebuild
+
+* Thu Mar 12 2009 Götz Waschk <waschk@mandriva.org> 0.78-2mdv2009.1
++ Revision: 354150
+- fix build
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Wed Jan 02 2008 Olivier Blin <blino@mandriva.org> 0.78-1mdv2008.1
++ Revision: 140756
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Wed Aug 29 2007 Götz Waschk <waschk@mandriva.org> 0.78-1mdv2008.0
++ Revision: 73344
+- Import id3
+
+
+
+* Mon Aug 28 2006 Götz Waschk <waschk@mandriva.org> 0.78-1mdv2007.0
+- initial package
