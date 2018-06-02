@@ -1,6 +1,6 @@
 %define name id3
 %define version 0.78
-%define release 6
+%define release 7
 
 Summary: Command line ID3 tagger
 Name: %{name}
