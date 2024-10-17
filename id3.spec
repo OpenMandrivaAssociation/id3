@@ -10,7 +10,7 @@ Source0: http://home.wanadoo.nl/squell/files/%{name}-%{version}.tar.bz2
 Patch: id3-0.78-missing-headers.patch
 License: BSD
 Group: Sound
-Url: http://home.wanadoo.nl/squell/id3.html
+Url: https://home.wanadoo.nl/squell/id3.html
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
