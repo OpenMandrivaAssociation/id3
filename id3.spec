@@ -13,6 +13,7 @@ Group: Sound
 Url: https://home.wanadoo.nl/squell/id3.html
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	make
 %description
 id3 mass tagger is a tool for manipulating id3 and id3v2 tags in
 multiple files. It can generate tag fields from the filename and
